@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_finished"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tech.gigabyte.todo.FinishedActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_finished"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:elevation="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:minHeight="80dp"
+        app:logo="@mipmap/ic_launcher"
+        app:title="FINISHED"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:titleTextColor="#ececec">
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_finished"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85sp"
+        android:scrollbars="vertical">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
